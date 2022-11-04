@@ -85,7 +85,7 @@ nav{
     width: 100%;
 }
 .promociones{
-    background-image: url(/img/slide1.jpg);
+    background-image: url(img/slide1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px 0;
