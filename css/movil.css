@@ -1,0 +1,133 @@
+@import url("estilo.css");
+@media screen and (max-width:480px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .margenes{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        width: 100%;
+    }
+    .margenes figure{
+        max-width: 150px;
+        position: fixed;
+        top: 20px;
+        left: 30px;
+    }
+    .contenedor_iconomenu{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        margin-top: 50px;
+    }
+    .iconosredes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+        margin: auto;
+        padding-top: 60px;
+    }
+    .iconosredes a{
+        margin-right: 0px;
+    }
+    .dos{
+        order: 1;
+    }
+    .tres{
+        order: 2;
+    }
+    .uno{
+        order: 3;
+    }
+    nav{
+        display: none;
+    }
+    .promociones{
+        width: 100%;
+    }
+    .promociones h1{
+        font-size: 20px;
+    }
+    .texto{
+        width: 340px;
+        font-size: 15px;
+    }
+    .botones{
+        width: 300px;
+    }
+    .botones a{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .izqdos{
+        order: 2;
+        width: 100%;
+        float: none;
+    }
+    .izq h2{
+        text-align: center;
+        font-size: 15px;
+    }
+    .izq p{
+        font-size: 10px;
+    }
+    .deruno{
+        order: 1;
+    }
+    .buscando-talento{
+        display: inline-block;
+        background-color: #FBF9F1;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .talentos{
+        margin: auto;
+        padding: 0 30px;
+    }
+    .talentos h2{
+        font-size: 20px;
+        margin-bottom: -30px;
+    }
+    .talentos figure{
+        margin: auto;
+    }
+    .talentos figure img{
+        filter: sepia(100%);
+        border-radius: 10%;
+        display: flex;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .masajes{
+        margin: auto;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .masajes figure img{
+        width: 50%;
+    }
+    .masajes h2{
+        font-size: 20px;
+    }
+    .masajes p{
+        font-size: 15px;
+    }
+    .btn_VerMas{
+        font-size: 15px;
+        width: 100px;
+    }
+    .titulo_instalaciones{
+        margin-top: 20px;
+    }
+    .instalaciones{
+        grid-template-areas: "foto1" "foto5" "foto2 " "foto4" "foto3 " ;
+    }
+}

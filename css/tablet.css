@@ -1,0 +1,38 @@
+@import url("estilo.css");
+@media screen and (max-width:1024px){
+    .promociones{
+        background-position: 0px 0px;
+    }
+    .iconosredes{
+        position: fixed;
+    }
+    .contenedo_promociones h1{
+        font-size: 20px;
+    }
+    .texto{
+        font-size: 12px;
+    }
+    .botones{
+        width: 300px;
+    }
+    .botones a{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .izq h2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .izq p{
+        font-size: 10px;
+    }
+    .der{
+        margin: auto;
+    }
+    .izqdos{
+        order: 2;
+    }
+    .masajes{
+        margin: auto;
+    }
+}
