@@ -229,6 +229,9 @@ nav{
     background-color: transparent;
     color: #333;
 }
+.instalaciones{
+    margin-top: 40px;
+}
 .instalaciones h2{
     text-align: center;
     margin-top: 40px;
